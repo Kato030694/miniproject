@@ -8,9 +8,9 @@ import SignupScreen from './E_learning/Screens/SignUp';
 function App() {
   return (
     <div className="App">
-      {/* <HomeScreen /> */}
-      <CourseDetailScreen />
-      <SignupScreen />
+      <HomeScreen />
+      {/* <CourseDetailScreen /> */}
+      {/* <SignupScreen /> */}
      
     </div>
   );

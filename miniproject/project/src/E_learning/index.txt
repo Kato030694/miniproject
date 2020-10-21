@@ -4,3 +4,4 @@ Luu y trong du an
 - Quan ly form bang formik, quan ly validation bang yup
 - Cal API signup
 - Nang cap axios
+- Nang cap Action Creator

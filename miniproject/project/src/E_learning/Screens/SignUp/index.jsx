@@ -1,20 +1,10 @@
 // Dung formik de tao quan ly form Signup
 import React, { Component } from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
-import * as yup from "yup";
-import {userService} from "./../../Services/index";
 
-const signUserSchema = yup.object().shape({
-  taiKhoan: yup.string().required("* Field is required !"),
-  matKhau: yup.string().required("* Field is required !"),
-  hoTen: yup.string().required("* Field is required !"),
-  email: yup
-    .string()
-    .required("* Field is required !")
-    .email("* Email is invalid"),
-  soDT: yup.string().matches(/^[0-9]+$/),
-  maNhom: yup.string().required("* Field is required !"),
-});
+import {userService} from "./../../Services/index";
+import {signUserSchema} from "./../../Services/user";
+
 
 class SignupScreen extends Component {
   _handleSubmit = (values) => {

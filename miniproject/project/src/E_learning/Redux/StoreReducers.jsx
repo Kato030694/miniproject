@@ -4,6 +4,7 @@ let initialState = {
 }
 
 const CoursesReducer = (state = initialState, action) =>{
+    console.log(action)
     switch(action.type) {
         case 'FETCH_COURSES':{
             state.courses = action.payload;
