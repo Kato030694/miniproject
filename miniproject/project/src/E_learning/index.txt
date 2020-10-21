@@ -1,1 +1,6 @@
 Luu y trong du an
+- React-Redux
+- Call API bang axios
+- Quan ly form bang formik, quan ly validation bang yup
+- Cal API signup
+- Nang cap axios
